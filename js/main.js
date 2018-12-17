@@ -3,7 +3,7 @@ var tabIndex = 1;
 
 // This function is only called when the HTML document is ready
 $("document").ready(function () {
-  if (window.confirm("DEAR GRADER PLEASE DOWNLOAD THE REPO AND RUN IT. FOR SOME REASON GITHUB PAGES IS ACTING UP AND I HAVEN'T HAVE THE TIME TO FIX IT.")) {
+  if (window.confirm("DEAR GRADER PLEASE CLICK OK TO DOWNLOAD THE REPO AND RUN IT LOCALLY OR CANCEL TO TRY IT OUT YOURSELF. FOR SOME REASON GITHUB PAGES WOULDN'T WORK WITH MY SLIDERS AND I HAVEN'T HAVE THE TIME TO FIX IT.")) {
     window.location.href = "https://github.com/blaq-63/as8.git";
   };
 
