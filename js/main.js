@@ -192,13 +192,13 @@ function validate() {
         required: "A number between -12 and 12 is required for the Horizontal start."
       },
       vert_start: {
-        number: "ERROR: you did not enter a valid number.<br/>Please enter a number between -12 and 12 for the Horizontal start.",
+        number: "Please enter a number between -12 and 12 for the Horizontal start.",
         min: "Please enter a number greater than or equal to -12 for the Horizontal start.",
         max: "Please enter a number less than or equal to 12 for the Horizontal start.",
         required: "A number between -12 and 12 is required for the Horizontal start."
       },
       vert_end: {
-        number: "ERROR: you did not enter a valid number.<br/>Please enter a number between -12 and 12 for the Horizontal start.",
+        number: "Please enter a number between -12 and 12 for the Horizontal start.",
         min: "Please enter a number greater than or equal to -12 for the Horizontal start.",
         max: "Please enter a number less than or equal to 12 for the Horizontal start.",
         required: "A number between -12 and 12 is required for the Horizontal start."
