@@ -1,0 +1,202 @@
+body {
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body > .container {
+  padding: 65px 10px 0;
+}
+
+body > .row {
+  margin: 10px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.center_text_images {
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  color: black;
+  font-size: 70%;
+  font-weight: 900;
+  text-align: center;
+  width: 50px;
+
+}
+
+label {
+  display: inline-block;
+  font-size: 70%;
+  font-weight: 900;
+  margin-top: 6px;
+  text-align: right;
+  width: 250px;
+}​
+
+input[type=submit] {
+  width: 150px;
+}
+
+div form input.submit_button {
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+tbody > tr > td {
+  background-color: #004c00;
+  border: 3px solid black;
+  color: white;
+  height: 25px;
+  font-size: 100%;
+  font-weight: 900;
+  text-align: center;
+  width: 25px;
+}
+
+tbody > tr:first-child > td {
+  background-color: #3895d3;
+  color: white;
+}
+
+/* Style the left most column. */
+tbody > tr > td:first-child {
+  background-color: #3895d3;
+  color: white;
+}
+
+tbody > tr:first-child > td:first-child {
+  background-color: #ffffff;   
+  border-top: none;           
+  border-left: none;
+  color: black;
+  opacity: 0;
+}
+
+/* Slider background color / settings */
+.ui-slider-horizontal {
+  background: #3895d3;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Just the slider handle */
+.ui-slider-horizontal .ui-slider-handle {
+  background: #bff011; 
+  border: none;
+}
+
+.ui-tabs-nav {
+  background: #b2b2b2;
+  color: white;
+}
+
+/* Tabs styling */
+.tab.ui-state-default {
+  background: #3895d3;
+  color: white;
+}
+
+.tab.ui-state-active {
+  background: #bff011; 
+  color: black;
+}
+
+#tabs > ul > li.tab.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active {
+  color: black;
+}
+
+.center_text {
+  color: white;
+  font-size: 200%;
+  font-weight: 900;
+  text-align: center;
+}
+
+.center_text_nohighlight {
+  color: black;
+  font-size: 200%;
+  text-align: center;
+}
+
+.center_text_small {
+  color: white;
+  font-size: 120%;
+  font-weight: 900;
+  text-align: center;
+}
+
+.highlight_centered {
+  background-color: black;
+  color: white;
+  font-size: 200%;
+  font-weight: 900;
+  text-align: center;
+}
+
+.highlight_centered_small {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.highlight_centered_margins {
+  background-color: black;
+  color: white;
+  font-size: 200%;
+  font-weight: 900;
+  margin: 10px;
+  text-align: center;
+}
+
+.highlight_left_aligned {
+  background-color: black;
+  color: white;
+  font-size: 200%;
+  font-weight: 900;
+  text-align: left;
+}
+
+.highlight_right_aligned {
+  background-color: black;
+  color: white;
+  font-size: 200%;
+  font-weight: 900;
+  margin-right: -20px;
+  text-align: right;
+}
+
+.highlight_text_underline {
+  background: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.highlight_text_underline_centered {
+  background-color: black;
+  color: white;
+  font-size: 200%;
+  font-weight: 900;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.left_align {
+  color: white;
+  text-align: left;
+  font-size: 200%;
+}
+
+.right_align {
+  color: white;
+  text-align: left;
+  font-size: 200%;
+}
